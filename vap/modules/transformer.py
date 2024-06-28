@@ -4,6 +4,8 @@ import torch.nn.functional as F
 
 from functools import partial
 from x_transformers.x_transformers import *
+from typing import Optional
+
 
 
 def get_device(layer: nn.Module):
